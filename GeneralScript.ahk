@@ -402,7 +402,7 @@ XButton1 Up::SendInput {LCtrl Up}
 
 
 
-; ______________________Control sound volume when mouse on the Shell_Tray_________________________
+; ______________________Sound Volume Control_________________________
 
 #If MouseIsOveR("ahk_class Shell_TrayWnd")
 WheelUp::Send {Volume_Up}
@@ -415,7 +415,7 @@ MouseIsOver(WinTitle)
 	return WinExist(WinTitle " ahk_id " ID)
 }
 Return
-; ______________________Control sound volume when mouse on the Shell_Tray_________________________
+; ______________________Sound Volume Control_________________________
 
 
 

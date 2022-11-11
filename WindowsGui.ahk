@@ -3079,7 +3079,7 @@ Gdip_BFromARGB(ARGB)
 
 
 
-; ____________________________The Most Usages GUI____________________________________________
+; ____________________________GUI____________________________________________
 ^#n::
 CoordMode, Mouse, Screen
 MouseGetPos, XposA, YposA ; Get mouse position
